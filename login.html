@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Examen login</title>
+  <link rel="icon" href="../image/icon.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+  <div class="container" id="container">
+    <div class="sign-up" id="sign-up">
+      <form ><h1>Create Account</h1>
+        <div class="social-icons">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=azizkhadri2005@gmail.com" class="icon">
+            <i class="fa-brands fa-google-plus-g"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100062055921541" class="icon">
+            <i class="fa-brands fa-facebook"></i>
+          <a href="https://github.com/Aziz-kh1" class="icon">
+            <i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/aziz-khadri-890711338" class="icon">
+            <i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="user_inf">
+          <div>
+            <label for="nom">Nom</label>
+            <input class="req1" type="text" name="nom" id="nom" required/>
+            <label for="Prenom">Prénom</label>
+            <input class="req1" type="text" name="prenom" id="Prenom" required />
+          </div>
+          <div class="d_s">
+            <label for="date">Date de naissance</label>
+            <input class="req1" type="date" name="nom" placeholder="Name" id="date" required />
+            <label for="sex">Sélectionnez votre sexe</label>
+            <select class="req1" name="sex" id="sex" required>
+              <option value="mal">Masculin</option>
+              <option value="fem">Féminin</option>
+            </select>
+          </div>
+          <div>
+            <label for="Etablissement">Etablissement</label>
+            <input class="req1" type="text" name="Etab" id="Etablissement" required />
+            <label for="Filiere">Filière</label>
+            <input class="req1" type="text" name="Filiere" id="Filiere" required />
+          </div>
+          <div>
+            <label for="Email">Adresse email</label>
+            <input class="req1" type="email" name="Email" id="newEmail" required />
+            <label for="password">Mot de passe</label>
+            <input class="req1" type="password" name="password" id="newpassword" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" title="Le mot de passe doit comporter au moins 8 caractères, avec des lettres et des chiffres" required  />
+          </div>
+
+        </div>
+        <div class="user_type">
+          <div class="Etd">
+            <label for="Etd">Etudient</label>
+            <input type="checkbox" name="Etd" id="Etd" value="Etudient" required onclick="user_type('Prof','Etd')">
+          </div>
+          <div class="Prof">
+            <label for="Prof">Professeur</label>
+            <input type="checkbox" name="Prof" id="Prof" value="Professeur"required onclick="user_type('Etd','Prof')">
+          </div>
+
+        </div>
+        <div class="click">
+          <input type="submit" id="sub_user" value="Sing Up">
+        </div>
+      </form>
+         <button class="switch" id="but_Sing-in" onclick="display_sing('sign-up','sign-in','req1','req2')">Sing In</button>
+       
+    </div>
+
+    <div class="sign-in" id="sing-in">
+        <div class="login">
+            <h1>Sign In</h1>
+            <div class="social-icons">
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=azizkhadri2005@gmail.com" class="icon">
+                <i class="fa-brands fa-google-plus-g"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100062055921541" class="icon">
+                <i class="fa-brands fa-facebook"></i>
+              <a href="https://github.com/Aziz-kh1" class="icon">
+                <i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/aziz-khadri-890711338" class="icon">
+                <i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="user_inf">
+              <input class="req2" type="email" name="Email" id="Email" placeholder="Email" required />
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="user_inf">
+              <input class="req2" type="password" name="password" id="password" placeholder="Password" required />
+              <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="click">
+              <input type="submit"  value="Sing In" onclick="sing_in()">
+            </div>   
+          <button class="switch" id="but_Sing-up" onclick="display_sing('sign-in','sign-up','req2','req1')">Sign Up</button>
+        </div>
+       
+        
+      
+    </div>    
+    <script src="./login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+html,body{
+   height: 100%;
+}
+ *{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ body{
+   width: 100%;
+   background-image: url(../image/education1.png);
+   background-size: cover;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .container .sign-up{
+   display: block;
+   width:100%;
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    background: rgba(121, 207, 226, 0.5);
+    backdrop-filter: blur(10px);     
+    -webkit-backdrop-filter: blur(10px);  
+    padding: 20px;
+ }
+h1{
+   margin: 20px 0 10px 0;
+   text-align: center;
+   font-size: 50px;
+   font-family:system-ui;
+   font-weight: bold;
+ }
+.social-icons a{
+   margin: 20px;
+   text-align: center;
+   font-size: 30px;
+ }
+ .user_inf div{
+   font-size: 30px;
+   align-items: center; 
+   justify-content:space-between;
+   margin: 40px 20px;
+   display: flex;
+ }
+label{
+   width: 23%;
+   text-align: left;
+   justify-content: space-between;
+   font-size: 30px;
+}
+input,select{
+   width: 20%;
+   height: 100%;
+   background-color:#f3f3f370;
+   font-size: 20px;
+   font-weight:bold;
+   color: #000000;
+   padding: 10px 0px 10px 20px;
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 40px;
+   outline: none;
+}
+
+.user_type{
+   font-size: 30px;
+   display:flex;
+   justify-content: space-between;
+   margin: 0 20% 20px 20%;
+ }
+.user_type input{
+   width: 20px;
+   height: 20px;
+}
+button , .click > input{
+   font-size:30px;
+   background-color: #1a66e9;
+   color: #fff;
+   padding: 10px 45px;
+   border: 2px solid black;
+   border-radius: 20px;
+   font-weight: 600;
+   letter-spacing: 0.5px;
+   text-transform: uppercase;
+   margin:20px 0;
+   cursor: pointer;
+}
+.switch{
+   background-color: transparent;
+}
+.sign-up{
+   display: flex;
+ }
+/* pour le sing-in */
+
+
+.sign-in{
+   display:none;
+}
+.container .sign-in{
+   width:680px;
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    background: rgba(121, 207, 226, 0.5);
+    backdrop-filter: blur(10px);     
+    -webkit-backdrop-filter: blur(10px);  
+    padding: 20px;
+ }
+.sign-in .login{
+   width: 100%;
+   height: 100%;
+   padding:0 50px;
+   border-radius: 40px;
+}
+.sign-in .user_inf{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   margin: 30px 0;
+}
+.sign-in input{ 
+   width: 100%;
+   height:20%;
+  
+}
+.sign-in .click input{
+   width: 40%;
+}
+.sign-in input::placeholder{
+    color: #000000;
+ }
+.user_inf i{
+   position: absolute;
+   font-size: 20px;
+   right: 20px;
+   top: 30%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* background-color: transparent;
+   border:2px solid  rgba(225,0225,225,0.2);
+   outline: none;
+   border-radius: 40px;
+   padding: 20px 10px 20px 30px;
+   font-size: 20px;
+   color: #fff; */
+   
+
+
+
+
+
+
+
+ /* .sign-up h1{
+    font-size: 36px;
+    text-align: center;
+ }
+ .social-icons{
+    align-items: center;
+    text-align: center;
+    font-size:20px;
+    margin-left: 10px;
+   
+ }i{
+   position:absolute;
+   right: 20px;
+   top: 30%;
+ }
+.sign-up .user_inf .inf{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+ }
+ .inf input{
+   width: 100%;
+   height: 100%;
+   background-color:transparent;
+   font-size: 17px;
+   padding: 10px 40px 10px 20px;
+   color: #ffffff;
+   border: 2px solid rgba(225, 225, 225,0.2);
+   border-radius: 40px;
+   outline: none;
+ }
+ 
+ i{
+   position:absolute;
+   right: 20px;
+   top: 30%;
+ }
+ .user_type{
+   display:flex;
+   justify-content: space-between;
+   margin: -12px 33px 20px 33px;
+ }
+ .Etd{
+  
+    font-size: large;
+ }
+.Prof{
+    text-align: right;
+} */
