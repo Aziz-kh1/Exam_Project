@@ -1,0 +1,26 @@
+<!-- 
+<div class="inf">
+  <input type="email" name="Email" placeholder="Email" />
+  <i class="fa-solid fa-envelope"></i>
+</div>
+<div class="inf">
+  <input type="password" name="password" placeholder="Password" />
+  <i class="fa-solid fa-lock"></i>
+</div> -->
+<!-- <input type="radio" name="user_type" id="Etudient" value="Etudient">
+            <input type="radio" name="user_type" id="Professeur">
+              <button>Sign Up</button> -->
+            </form>
+          </div>
+          <!-- <div class="change_sign" id="change_sign">
+            <div class="Right">
+                <h1>Hello!</h1>
+                <p>Enter your personal details to use all of site features</p>
+                <button class="hidden" id="go_sign-in">Sign In</button>
+            </div>
+            <div class="Left">
+                <h1>Welcome Back!</h1>
+                <p>Register with your personal details to use all of site features</p>
+                <button class="hidden" id="go_sign-up">Sign In</button>
+            </div>
+          </div> -->
