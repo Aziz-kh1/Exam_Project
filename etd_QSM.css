@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+}
+html,body {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    background-color:rgba(128, 128, 128, 0.139);
+    height: 100%;
+}
+body #exam_inf {
+    font-size: 40px;
+    width:90%;
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+    border-radius: 50px;
+    background: linear-gradient(to right, #fcfffb, #61f556);     
+    backdrop-filter: blur(10px);          
+    -webkit-backdrop-filter: blur(10px);
+    text-align: center;
+    padding:10px 70px;
+}
+h1{
+    font-size: 30px;
+    text-align: right;
+    padding:20px 50px 0 50px;
+    font-family: NotoSans, NotoSans_Hebrew, NotoSans_Arabic, NotoSans_Hindi, NotoSans_JP, NotoSans_KR, NotoSans_TC, NotoSans_SC;
+}
+h2{
+    padding-bottom: 5px;
+}
+hr{
+    width: 100%;
+    height: 6px;
+    background-color: rgb(24, 190, 24);
+}
+input{
+   width: 40%;
+   height:3dvi;
+   background-color:#f3f3f370;
+   font-size: 20px;
+   font-weight:bold;
+   color: #000000;
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 40px;
+   padding: 10px 0px 10px 20px;
+   margin-top: 20px;
+   outline: none;
+}
+#examName{
+    text-align: left;
+    margin-left: 13%;
+}
+
+/* label{
+   width: 100%;
+   text-align: left;
+   font-size: 100%;
+   margin-right: 10px;
+} */
+button{
+    width: 20%;
+    height: 100%;
+   font-size:30px;
+   background-color: #1a66e9;
+   color: #fff;
+   padding: 10px 45px;
+   border: 2px solid black;
+   border-radius: 20px;
+   font-weight: 600;
+   letter-spacing: 0.5px;
+   text-transform: uppercase;
+   margin:20px 0;
+   cursor: pointer;
+}
+#sub{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+#exam_cont{
+    display: none;
+    
+}
+.choix{
+    background-color: white;
+    margin: 20px 50%;
+    text-align: left;
+    width:600px;
+    height:fit-content;
+    font-family:NotoSans, NotoSans_Hebrew, NotoSans_Arabic, NotoSans_Hindi, NotoSans_JP, NotoSans_KR, NotoSans_TC, NotoSans_SC;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-box-align: center;
+    align-items: center;
+    
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 24px;
+    cursor: pointer;
+}
+.Exam{ 
+    
+    backdrop-filter: blur(10px);          
+    -webkit-backdrop-filter: blur(10px);
+}
+#exam_cont input[type='radio']{
+    text-align: left;
+    margin: 40px;
+    height: 32px;
+    width: 80px;
+}
+.Exam label{
+    font-size: 25px;
+     letter-spacing: 0.5px;
+    font-family: sans-serif;
+    padding-bottom: 14px;
+}
+#exam_cont h3{
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#exam_cont h1{
+    text-align: left;
+    color: #000000;
+    margin-bottom: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+strong{
+    font-size: 40px;
+}
+span{
+    color:blue;
+}
